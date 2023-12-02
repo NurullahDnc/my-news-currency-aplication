@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="currency.css">
+
+    <!--font-awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+</head>
+
+<body>
+    
+
+    <div class="contaienr">
+        <header>
+            <nav class="nav">
+                <ol class="nav-bar">
+                    <li><a href="index.html">Anasayfa</a> </li>
+                    <li><a href="weather.html">Hava Durumu</a> </li>
+                    <li><a href="currency.html">Doviz Hesaplama</a> </li>
+                    <li><a href="#">Haberler</a> </li>
+                    <li><a href="#contact">Bize Ulaş</a> </li>
+
+
+                </ol>
+            </nav>
+
+        </header>
+
+        <section>
+            <div class="section-content">
+                <div class="app">
+                    <div id="main">
+                        <div class="header-wrapper">
+                            <h3>DOVİZ KURU ÇEVİRİCİ </h3>
+                        </div>
+            
+                        <div class="content-wrapper">
+                            <input id="amount" type="number" placeholder="Miktar" />
+            
+                          <div class="selectWrapper">
+                            <select id="firstCurrencyOption">
+                                <option selected>USD</option>
+                                <option>EUR</option>
+                                <option>JPY</option>
+                                <option>BGN</option>
+                                <option>CZK</option>
+                                <option>DKK</option>
+                                <option>GBP</option>
+                                <option>HUF</option>
+                                <option>PLN</option>
+                                <option>RON</option>
+                                <option>SEK</option>
+                                <option>CHF</option>
+                                <option>ISK</option>
+                                <option>NOK</option>
+                                <option>HRK</option>
+                                <option>RUB</option>
+                                <option>TRY</option>
+                                <option>AUD</option>
+                                <option>BRL</option>
+                                <option>CAD</option>
+                                <option>CNY</option>
+                                <option>HKD</option>
+                                <option>IDR</option>
+                                <option>ILS</option>
+                                <option>INR</option>
+                                <option>KRW</option>
+                                <option>MXN</option>
+                                <option>MYR</option>
+                                <option>NZD</option>
+                                <option>PHP</option>
+                                <option>SGD</option>
+                                <option>THB</option>
+                                <option>ZAR</option>
+                            </select>
+            
+                            <i class="fa-solid fa-arrow-right"></i>
+            
+                            <select id="secondCurrencyOption">
+                                <option>USD</option>
+                                <option>EUR</option>
+                                <option>JPY</option>
+                                <option>BGN</option>
+                                <option>CZK</option>
+                                <option>DKK</option>
+                                <option>GBP</option>
+                                <option>HUF</option>
+                                <option>PLN</option>
+                                <option>RON</option>
+                                <option>SEK</option>
+                                <option>CHF</option>
+                                <option>ISK</option>
+                                <option>NOK</option>
+                                <option>HRK</option>
+                                <option>RUB</option>
+                                <option selected>TRY</option>
+                                <option>AUD</option>
+                                <option>BRL</option>
+                                <option>CAD</option>
+                                <option>CNY</option>
+                                <option>HKD</option>
+                                <option>IDR</option>
+                                <option>ILS</option>
+                                <option>INR</option>
+                                <option>KRW</option>
+                                <option>MXN</option>
+                                <option>MYR</option>
+                                <option>NZD</option>
+                                <option>PHP</option>
+                                <option>SGD</option>
+                                <option>THB</option>
+                                <option>ZAR</option>
+                            </select>
+                          </div>
+            
+                            <div class="button-wrapper">
+                                <button id="calculateButton">Hesapla</button>
+                                <button id="ClearButton">Temizle</button>
+                            </div>
+            
+                            <input type="number" id="result" readonly placeholder="Sonuç" />
+            
+                            <span>Copyright - Nurullah Dinç</span>
+                        </div>
+
+                </div>
+
+            </div>
+
+        </section>
+    </div>
+
+    <footer>
+        <div id="contact" class="footer-container">
+            <div class="footer-navigation">
+                <div class="footer-navigation-left">
+                    <div class="footer-navigation-wrraper">
+                        <div class="footer-navigation-item">
+                            <h1 class="footer-navigation-item-title ">
+                                Hava Durumu
+                            </h1>
+                            <h2 class="footer-navigation-item-text">
+                                <ol>
+                                    <a href="">
+                                        <li value="1">Hava Durumu</li>
+                                    </a>
+                                    <a href="">
+                                        <li value="1">Günlük Hava Durumu</li>
+                                    </a>
+                                    <a href="">
+                                        <li value="1">5 Gunluk Hava Durumu</li>
+                                    </a>
+                                    <a href="">
+                                        <li value="1">Haftalık Hava Durumu</li>
+                                    </a>
+                                    <a href="">
+                                        <li value="1">15 Gunluk Hava Durumu</li>
+                                    </a>
+                                    <a href="">
+                                        <li value="1">Sel</li>
+                                    </a>
+                                    <a href="">
+                                        <li value="1">Heylan</li>
+                                    </a>
+                                </ol>
+                            </h2>
+                        </div>
+                        <div class="footer-navigation-item">
+                            <h1 class="footer-navigation-item-title">
+                                Haberler
+                            </h1>
+                            <h2 class="footer-navigation-item-text">
+                                <ol>
+                                    <a href="">
+                                        <li value="1">Son Dakika</li>
+                                    </a>
+                                    <a href="">
+                                        <li value="1">Gündem Haberleri</li>
+                                    </a>
+                                    <a href="">
+                                        <li value="1">Spor Haberleri</li>
+                                    </a>
+                                    <a href="">
+                                        <li value="1">Ekonomi Haberleri</li>
+                                    </a>
+                                    <a href="">
+                                        <li value="1">Dunya Haberleri</li>
+                                    </a>
+                                    <a href="">
+                                        <li value="1">Magazin Haberleri</li>
+                                    </a>
+                                    <a href="">
+                                        <li value="1">Teknoloji Hbaerleri</li>
+                                    </a>
+                                    <a href="">
+                                        <li value="1">Eğitim Hbaerleri Hbaerleri</li>
+                                    </a>
+                                </ol>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="social-wrraper">
+                        <p class="social-wrraper-title">
+                            BİZİ TAKİP EDİN
+                        </p>
+                        <ol>
+                            <li>
+                                <a href="">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fa-brands fa-youtube"></i> </a>
+                            </li>
+                        </ol>
+
+                    </div>
+
+
+                </div>
+                <div class="footer-navigation-rigth">
+                    <div class="footer-navigation-item-map">
+                        <h2 class="footer-navigation-item-maps">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96305.42574705805!2d28.965328663744202!3d41.03521915674601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cac826d524c9f1%3A0xc14f7612337b7f38!2zw5xza8O8ZGFyL8Swc3RhbmJ1bA!5e0!3m2!1str!2str!4v1699907229557!5m2!1str!2str"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </h2>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2023 Tüm hakları saklıdır. HABERLEŞME VE YAYINCILIK ANONİM ŞİRKETİ.</p>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+    </script>
+
+
+
+    <script src="currency.js"> </script>
+    <script src="main.js"></script>
+</body>
+
+</html>
